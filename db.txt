@@ -1,0 +1,14 @@
+create database hell;
+use hell;
+CREATE TABLE sale (ProductID int(11) NOT NUll PRIMARY KEY,Company varchar(30) NOT NUll,date date NOT NUll,Quantity int(11) NOT NUll,Payment int(11) NOT NUll,Name varchar(20) NOT NUll);
+
+CREATE TABLE stock (ProductID varchar(11) NOT NULL PRIMARY KEY,Detail varchar(200) NOT NULL,Company varchar(30) NOT NULL,Quantity varchar(10) NOT NULL);
+
+CREATE TABLE users (Email varchar(40) NOT NULL PRIMARY KEY,Password varchar(20) NOT NULL);
+
+INSERT INTO users(Email,Password) VALUES ('admin','123');
+
+7559148529
+
+
+use hell;CREATE TABLE sale (ProductID int(11) NOT NUll PRIMARY KEY,Company varchar(30) NOT NUll,date date NOT NUll,Quantity int(11) NOT NUll,Payment int(11) NOT NUll,Name varchar(20) NOT NUll);CREATE TABLE stock (ProductID varchar(11) NOT NULL PRIMARY KEY,Detail varchar(200) NOT NULL,Company varchar(30) NOT NULL,Quantity varchar(10) NOT NULL);CREATE TABLE users (Email varchar(40) NOT NULL PRIMARY KEY,Password varchar(20) NOT NULL);INSERT INTO users(Email,Password) VALUES ('admin','123');
